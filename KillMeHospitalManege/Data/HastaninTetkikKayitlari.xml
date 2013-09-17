@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfHastaninTetkikKayitlari xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <HastaninTetkikKayitlari>
+    <TC>11111111111</TC>
+    <TetkikAdi>Röntgen</TetkikAdi>
+    <DoktorAdi>Safa Fersan / Kadın Doğum - 1</DoktorAdi>
+    <PoliklinikAdi>Kadın Doğum </PoliklinikAdi>
+    <Durum>0</Durum>
+  </HastaninTetkikKayitlari>
+  <HastaninTetkikKayitlari>
+    <TC>11111111111</TC>
+    <TetkikAdi>İdrar Tahlili</TetkikAdi>
+    <DoktorAdi>Tolga Sedat Kayhan / Kardiyoloji - 2</DoktorAdi>
+    <PoliklinikAdi>Kardiyoloji </PoliklinikAdi>
+    <Durum>0</Durum>
+  </HastaninTetkikKayitlari>
+  <HastaninTetkikKayitlari>
+    <TC>11111111111</TC>
+    <TetkikAdi>İdrar Tahlili</TetkikAdi>
+    <DoktorAdi>Tolga Sedat Kayhan / Kardiyoloji - 2</DoktorAdi>
+    <PoliklinikAdi>Kardiyoloji </PoliklinikAdi>
+    <Durum>1</Durum>
+  </HastaninTetkikKayitlari>
+</ArrayOfHastaninTetkikKayitlari>

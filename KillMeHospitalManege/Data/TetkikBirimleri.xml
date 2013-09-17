@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfTetkikBirimleri xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <TetkikBirimleri>
+    <BirimAdi>Bioloji lab</BirimAdi>
+    <BagliOlduguServis>Kadın Doğum</BagliOlduguServis>
+    <YapilabilenTest>İdrar Tahlili</YapilabilenTest>
+  </TetkikBirimleri>
+  <TetkikBirimleri>
+    <BirimAdi>Bioloji lab</BirimAdi>
+    <BagliOlduguServis>Kadın Doğum</BagliOlduguServis>
+    <YapilabilenTest>Kan Tahlili</YapilabilenTest>
+  </TetkikBirimleri>
+  <TetkikBirimleri>
+    <BirimAdi>Biyokimya Lab</BirimAdi>
+    <BagliOlduguServis>Üroloji</BagliOlduguServis>
+    <YapilabilenTest>idrar tahlili</YapilabilenTest>
+  </TetkikBirimleri>
+  <TetkikBirimleri>
+    <BirimAdi>Biyokimya Lab</BirimAdi>
+    <BagliOlduguServis>Üroloji</BagliOlduguServis>
+    <YapilabilenTest>Kan tahlili</YapilabilenTest>
+  </TetkikBirimleri>
+</ArrayOfTetkikBirimleri>

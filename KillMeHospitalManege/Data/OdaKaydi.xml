@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfOdaYeniKayit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <OdaYeniKayit>
+    <ServisAdi>Kadın Doğum</ServisAdi>
+    <OdaNo>E - 108</OdaNo>
+    <KisiSayisi>2</KisiSayisi>
+    <Cinsiyet>Bayan</Cinsiyet>
+  </OdaYeniKayit>
+  <OdaYeniKayit>
+    <ServisAdi>Yeni Doğan</ServisAdi>
+    <OdaNo>A -100</OdaNo>
+    <KisiSayisi>1</KisiSayisi>
+    <Cinsiyet>Bayan</Cinsiyet>
+  </OdaYeniKayit>
+  <OdaYeniKayit>
+    <ServisAdi>Yoğun Bakım</ServisAdi>
+    <OdaNo>423</OdaNo>
+    <KisiSayisi>1</KisiSayisi>
+    <Cinsiyet>Bay</Cinsiyet>
+  </OdaYeniKayit>
+  <OdaYeniKayit>
+    <ServisAdi>Ürolog</ServisAdi>
+    <OdaNo>Ü -100</OdaNo>
+    <KisiSayisi>2</KisiSayisi>
+    <Cinsiyet>Bayan</Cinsiyet>
+  </OdaYeniKayit>
+  <OdaYeniKayit>
+    <ServisAdi>Deneme</ServisAdi>
+    <OdaNo>Deneme</OdaNo>
+    <KisiSayisi>2</KisiSayisi>
+    <Cinsiyet>Bayan</Cinsiyet>
+  </OdaYeniKayit>
+  <OdaYeniKayit>
+    <ServisAdi>Kadın Doğum</ServisAdi>
+    <OdaNo>5</OdaNo>
+    <KisiSayisi>2</KisiSayisi>
+    <Cinsiyet>Bay</Cinsiyet>
+  </OdaYeniKayit>
+</ArrayOfOdaYeniKayit>

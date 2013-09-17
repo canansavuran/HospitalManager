@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfPoliklinikKayit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <PoliklinikKayit>
+    <PoliklinikAdi>Kardiyoloji - 1</PoliklinikAdi>
+    <DoktorAdi>Fatih Yurdagül</DoktorAdi>
+  </PoliklinikKayit>
+  <PoliklinikKayit>
+    <PoliklinikAdi>Kadın Doğum - 1</PoliklinikAdi>
+    <DoktorAdi>Safa Fersan</DoktorAdi>
+  </PoliklinikKayit>
+  <PoliklinikKayit>
+    <PoliklinikAdi>Kardiyoloji - 2</PoliklinikAdi>
+    <DoktorAdi>Tolga Sedat Kayhan</DoktorAdi>
+  </PoliklinikKayit>
+  <PoliklinikKayit>
+    <PoliklinikAdi>Üroloji - 1</PoliklinikAdi>
+    <DoktorAdi>Burak Bilginer</DoktorAdi>
+  </PoliklinikKayit>
+</ArrayOfPoliklinikKayit>

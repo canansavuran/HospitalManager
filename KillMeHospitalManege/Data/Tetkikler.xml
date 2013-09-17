@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfSafaTetkik xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SafaTetkik>
+    <TC>11111111111</TC>
+    <TetkikIsteyenDoktor>Tolga Sedat Kayhan </TetkikIsteyenDoktor>
+    <TetkikIsteyenServis>Kardiyoloji </TetkikIsteyenServis>
+    <TetkikAdi>İdrar Tahlili</TetkikAdi>
+    <TetkikBagliOlduguServis>Kardiyoloji </TetkikBagliOlduguServis>
+    <TetkikDegeri>13,5</TetkikDegeri>
+    <TetkikSonucu>Normal</TetkikSonucu>
+    <TetkikUcreti>15</TetkikUcreti>
+  </SafaTetkik>
+</ArrayOfSafaTetkik>

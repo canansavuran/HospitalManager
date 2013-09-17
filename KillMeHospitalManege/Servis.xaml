@@ -1,0 +1,43 @@
+﻿<Window x:Class="KillMeHospitalManege.Servis"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Servis" Height="404.478" Width="358.784">
+    <Grid>
+        <TabControl HorizontalAlignment="Left" Height="358" Margin="0,10,-12,0" VerticalAlignment="Top" Width="363">
+            <TabItem x:Name="TabYeniKayit" Header="Yeni Servis Kaydı">
+                <Grid Background="#FFE5E5E5" Margin="0,0,2,0">
+                    <Label Content="Servis Adı : " HorizontalAlignment="Left" Margin="10,13,0,0" VerticalAlignment="Top"/>
+                    <Label Content="Bağlı Olduğu Poliklink : " HorizontalAlignment="Left" Margin="8,40,0,0" VerticalAlignment="Top"/>
+                    <TextBox x:Name="TBAdi" HorizontalAlignment="Left" Height="23" Margin="150,13,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="185"/>
+                    <ComboBox x:Name="CBPoliklinik" HorizontalAlignment="Left" Margin="150,41,0,0" VerticalAlignment="Top" Width="185" SelectedIndex="0">
+                    </ComboBox>
+                    <TextBox x:Name="TBKapasite" HorizontalAlignment="Left" Height="23" Margin="150,68,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="185"/>
+                    <Label Content="Servis Kapasitesi :" HorizontalAlignment="Left" Margin="10,65,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.211,0"/>
+                    <Button x:Name="Kayit" Content="Kaydet" HorizontalAlignment="Left" Margin="250,115,0,0" VerticalAlignment="Top" Width="75" Click="Kayit_Click"/>
+                </Grid>
+            </TabItem>
+            <TabItem x:Name="TabArama" Header="Servis Detayları">
+                <Grid Background="#FFE5E5E5" Margin="0,0,-7,0">
+                    <TextBlock HorizontalAlignment="Left" Margin="30,31,0,0" TextWrapping="Wrap" Text="Servis Seçiniz :" VerticalAlignment="Top"/>
+                    <TextBlock HorizontalAlignment="Left" Margin="30,0,0,255" TextWrapping="Wrap" Text="Servis Adı :" VerticalAlignment="Bottom" IsEnabled="False"/>
+                    <TextBlock HorizontalAlignment="Left" Margin="29,115,0,0" TextWrapping="Wrap" Text="Servis Kapasitesi :" VerticalAlignment="Top"/>
+                    <Button x:Name="BTNDepo" Content="Servis Deposu" HorizontalAlignment="Left" Margin="29,136,0,0" VerticalAlignment="Top" Width="289" IsEnabled="False"/>
+                    <GroupBox Header="Hasta İşlemleri" HorizontalAlignment="Left" Margin="30,161,0,0" VerticalAlignment="Top" Height="108" Width="288">
+                        <Grid HorizontalAlignment="Left" Height="156" VerticalAlignment="Top" Width="260" Margin="0,0,-2,0">
+                            <Button x:Name="Yatis" Content="Hasta Yatış İşlemleri" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="250" Click="Yatis_Click" IsEnabled="False"/>
+                            <Button x:Name="Ameliyat" Content="Hasta Ameliyat İşlemleri" HorizontalAlignment="Left" Margin="10,35,0,0" VerticalAlignment="Top" Width="250" Click="Ameliyat_Click" IsEnabled="False"/>
+                            <Button x:Name="Cikis" Content="Hasta Çıkışı" HorizontalAlignment="Left" Margin="10,60,0,0" VerticalAlignment="Top" Width="250" Click="Cikis_Click" IsEnabled="False"/>
+                        </Grid>
+                    </GroupBox>
+                    <TextBox x:Name="TBKapasite1" HorizontalAlignment="Left" Height="23" Margin="145,108,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="174" IsEnabled="False"/>
+                    <TextBox x:Name="TBAdi1" HorizontalAlignment="Left" Height="23" Margin="145,52,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="174" IsEnabled="False"/>
+                    <ComboBox x:Name="CBServisler" HorizontalAlignment="Left" Margin="144,25,0,0" VerticalAlignment="Top" Width="174" SelectionChanged="CBServisler_SelectionChanged"/>
+                    <TextBox x:Name="TBPoliklinik" HorizontalAlignment="Left" Height="23" Margin="145,80,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="173" IsEnabled="False"/>
+                    <TextBlock HorizontalAlignment="Left" Margin="29,87,0,0" TextWrapping="Wrap" Text="Servisin Polikliniği :" VerticalAlignment="Top"/>
+                </Grid>
+            </TabItem>
+           
+        </TabControl>
+
+    </Grid>
+</Window>

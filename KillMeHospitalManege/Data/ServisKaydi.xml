@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfServisKayit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ServisKayit>
+    <ServisAdi>Kadın Doğum</ServisAdi>
+    <Poliklinik>Kadın Doğum - 1</Poliklinik>
+    <Kapasite>2</Kapasite>
+  </ServisKayit>
+  <ServisKayit>
+    <ServisAdi>Ürolog</ServisAdi>
+    <Poliklinik>Üroloji - 1</Poliklinik>
+    <Kapasite>2</Kapasite>
+  </ServisKayit>
+  <ServisKayit>
+    <ServisAdi>Deneme</ServisAdi>
+    <Poliklinik>Kardiyoloji - 2</Poliklinik>
+    <Kapasite>20</Kapasite>
+  </ServisKayit>
+</ArrayOfServisKayit>

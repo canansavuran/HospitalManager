@@ -1,0 +1,265 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1C2A40FF-942B-4E4C-98F7-603E6FC21F51}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>KillMeHospitalManege</RootNamespace>
+    <AssemblyName>KillMeHospitalManege</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="AppClass\CananYeniKayit.cs" />
+    <Compile Include="AppClass\FatihDepo.cs" />
+    <Compile Include="AppClass\HastaCikis.cs" />
+    <Compile Include="AppClass\HastaninTetkikKayitlari.cs" />
+    <Compile Include="AppClass\HastaServisOdasina.cs" />
+    <Compile Include="AppClass\OdaYeniKayit.cs" />
+    <Compile Include="AppClass\PoliklinikKayit.cs" />
+    <Compile Include="AppClass\Randevular.cs" />
+    <Compile Include="AppClass\SafaHastaTani.cs" />
+    <Compile Include="AppClass\SafaKisiServis.cs" />
+    <Compile Include="AppClass\SafaKullanimKaydi.cs" />
+    <Compile Include="AppClass\ServisKayit.cs" />
+    <Compile Include="AppClass\SafaTetkik.cs" />
+    <Compile Include="AppClass\TetkikBirimleri.cs" />
+    <Compile Include="AsgariVeAzamiStok.xaml.cs">
+      <DependentUpon>AsgariVeAzamiStok.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DepoTransfer.xaml.cs">
+      <DependentUpon>DepoTransfer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DoktorGiris.xaml.cs">
+      <DependentUpon>DoktorGiris.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="HastaServisİslemleri_ Ameliyat.xaml.cs">
+      <DependentUpon>HastaServisİslemleri_ Ameliyat.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="HastaServisİslemleri_Cikis.xaml.cs">
+      <DependentUpon>HastaServisİslemleri_Cikis.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="HastaServisİslemleri_Yatis.xaml.cs">
+      <DependentUpon>HastaServisİslemleri_Yatis.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DepoListesi.xaml.cs">
+      <DependentUpon>DepoListesi.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Oda.xaml.cs">
+      <DependentUpon>Oda.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Poliklinik.xaml.cs">
+      <DependentUpon>Poliklinik.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Servis.xaml.cs">
+      <DependentUpon>Servis.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Tetkik.xaml.cs">
+      <DependentUpon>Tetkik.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TumIsletmeler.xaml.cs">
+      <DependentUpon>TumIsletmeler.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="VezneHastaKabul.xaml.cs">
+      <DependentUpon>VezneHastaKabul.xaml</DependentUpon>
+    </Compile>
+    <Page Include="AsgariVeAzamiStok.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="DepoListesi.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="DepoTransfer.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="DoktorGiris.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="DoktorHasta.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="HastaServisİslemleri_ Ameliyat.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="HastaServisİslemleri_Cikis.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="HastaServisİslemleri_Yatis.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DoktorHasta.xaml.cs">
+      <DependentUpon>DoktorHasta.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Page Include="Oda.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Poliklinik.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Servis.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Tetkik.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="TumIsletmeler.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="VezneHastaKabul.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Data\YeniKayit.xml">
+      <SubType>Designer</SubType>
+    </Resource>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Data\ServisKaydi.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Data\HastaTani.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Data\DepoUrunler.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Data\PoliklinikKaydi.xml">
+      <SubType>Designer</SubType>
+    </Resource>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Data\Tetkikler.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Data\OdaKaydi.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Data\RandevuKayitlari.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Data\HastaOda.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Data\HastaCikis.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Data\TetkikBirimleri.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Data\KullanimKaydi.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Data\HastaninTetkikKayitlari.xml" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

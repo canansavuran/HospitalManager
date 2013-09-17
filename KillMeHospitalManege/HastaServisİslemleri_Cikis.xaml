@@ -1,0 +1,23 @@
+﻿<Window x:Class="KillMeHospitalManege.HastaServisİslemleri_Cikis"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+         Title="Hasta Çıkış İşlemleri" Height="244" Width="400">
+    <Grid Background="#FFE5E5E5" Margin="0,0,-8,-3">
+        <TextBlock HorizontalAlignment="Left" Margin="10,16,0,0" TextWrapping="Wrap" Text="Hasta Seçiniz :" VerticalAlignment="Top"/>
+        <ComboBox x:Name="CBHastalar" HorizontalAlignment="Left" Margin="147,9,0,0" VerticalAlignment="Top" Width="222" SelectionChanged="CBHastalar_SelectionChanged">
+            
+        </ComboBox>
+        <Button x:Name="Kaydet" Content="İşlemi Gerçekleştir" HorizontalAlignment="Left" Margin="216,169,0,0" VerticalAlignment="Top" Width="157" Click="Kaydet_Click" IsEnabled="False"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,98,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Text="Hastanın Kurumu :"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,148,0,0" TextWrapping="Wrap" Text="Hastanın Ödemesi Gereken Ücret :" VerticalAlignment="Top"/>
+        <TextBox x:Name="Ucret" HorizontalAlignment="Left" Height="23" Margin="216,141,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" IsEnabled="False" Foreground="#FFFF0D0D"/>
+        <CheckBox x:Name="CBOdeme" Content="Ödeme Yapıldı" HorizontalAlignment="Left" Margin="103,172,0,0" VerticalAlignment="Top" Checked="CheckBox_Checked_1" Unchecked="CBOdeme_Unchecked"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,43,0,0" TextWrapping="Wrap" Text="Hastanın Oda Numarası :" VerticalAlignment="Top"/>
+        <TextBox x:Name="HastaOda" HorizontalAlignment="Left" Height="23" Margin="147,36,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="222" IsEnabled="False"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,71,0,0" TextWrapping="Wrap" Text="Hasta Yatış Tarihi :" VerticalAlignment="Top"/>
+        <TextBox x:Name="TBYatis" HorizontalAlignment="Left" Height="23" Margin="147,64,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="222" IsEnabled="False"/>
+        <TextBox x:Name="CBKurumu" HorizontalAlignment="Left" Height="23" Margin="147,97,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="222" IsEnabled="False"/>
+
+
+    </Grid>
+</Window>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfRandevular xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Randevular>
+    <HastaAdi>24337375082 - canan</HastaAdi>
+    <DoktorAdi>Burak Bilginer / Üroloji - 1</DoktorAdi>
+    <RandevuTarihi>20.5.2013</RandevuTarihi>
+    <RandevuSaati>09:08</RandevuSaati>
+    <Ameliyat>0</Ameliyat>
+  </Randevular>
+  <Randevular>
+    <HastaAdi>21341 - 234124</HastaAdi>
+    <DoktorAdi>Burak Bilginer / Üroloji - 1</DoktorAdi>
+    <RandevuTarihi>15.5.2013</RandevuTarihi>
+    <RandevuSaati>11:40</RandevuSaati>
+    <Ameliyat>1</Ameliyat>
+  </Randevular>
+  <Randevular>
+    <HastaAdi>24337375082 - canan</HastaAdi>
+    <DoktorAdi>Fatih Yurdagül / Kardiyoloji - 1</DoktorAdi>
+    <RandevuTarihi>19.5.2013</RandevuTarihi>
+    <RandevuSaati>12:04</RandevuSaati>
+    <Ameliyat>0</Ameliyat>
+  </Randevular>
+  <Randevular>
+    <HastaAdi>24337375082 - canan</HastaAdi>
+    <DoktorAdi>Fatih Yurdagül / Kardiyoloji - 1</DoktorAdi>
+    <RandevuTarihi>19.5.2013</RandevuTarihi>
+    <RandevuSaati>09:24</RandevuSaati>
+    <Ameliyat>0</Ameliyat>
+  </Randevular>
+  <Randevular>
+    <HastaAdi>21341 - 234124</HastaAdi>
+    <DoktorAdi>Safa Fersan / Kadın Doğum - 1</DoktorAdi>
+    <RandevuTarihi>22.5.2013</RandevuTarihi>
+    <RandevuSaati>10:12</RandevuSaati>
+    <Ameliyat>0</Ameliyat>
+  </Randevular>
+  <Randevular>
+    <HastaAdi>12365478952 - qwerty</HastaAdi>
+    <DoktorAdi>Safa Fersan / Kadın Doğum - 1</DoktorAdi>
+    <RandevuTarihi>29.5.2013</RandevuTarihi>
+    <RandevuSaati>09:40</RandevuSaati>
+    <Ameliyat>0</Ameliyat>
+  </Randevular>
+  <Randevular>
+    <HastaAdi>11111111111 - asd</HastaAdi>
+    <DoktorAdi>Safa Fersan / Kadın Doğum - 1</DoktorAdi>
+    <RandevuTarihi>22.5.2013</RandevuTarihi>
+    <RandevuSaati>09:56</RandevuSaati>
+    <Ameliyat>0</Ameliyat>
+  </Randevular>
+  <Randevular>
+    <HastaAdi>24337375082 - canan</HastaAdi>
+    <DoktorAdi>Burak Bilginer / Üroloji - 1</DoktorAdi>
+    <RandevuTarihi>28.5.2013</RandevuTarihi>
+    <RandevuSaati>09:32</RandevuSaati>
+    <Ameliyat>0</Ameliyat>
+  </Randevular>
+  <Randevular>
+    <HastaAdi>11111111111 - asd</HastaAdi>
+    <DoktorAdi>Safa Fersan / Kadın Doğum - 1</DoktorAdi>
+    <RandevuTarihi>23.5.2013</RandevuTarihi>
+    <RandevuSaati>09:48</RandevuSaati>
+    <Ameliyat>0</Ameliyat>
+  </Randevular>
+  <Randevular>
+    <HastaAdi>24337375082 - canan</HastaAdi>
+    <DoktorAdi>Tolga Sedat Kayhan / Kardiyoloji - 2</DoktorAdi>
+    <RandevuTarihi>21.5.2013</RandevuTarihi>
+    <RandevuSaati />
+    <Ameliyat>0</Ameliyat>
+  </Randevular>
+  <Randevular>
+    <HastaAdi>11111111111 - asd</HastaAdi>
+    <DoktorAdi>Safa Fersan / Kadın Doğum - 1</DoktorAdi>
+    <RandevuTarihi>30.5.2013</RandevuTarihi>
+    <RandevuSaati />
+    <Ameliyat>0</Ameliyat>
+  </Randevular>
+  <Randevular>
+    <HastaAdi>24337375082 - canan</HastaAdi>
+    <DoktorAdi>Fatih Yurdagül / Kardiyoloji - 1</DoktorAdi>
+    <RandevuTarihi>29.5.2013</RandevuTarihi>
+    <RandevuSaati>09:48</RandevuSaati>
+    <Ameliyat>0</Ameliyat>
+  </Randevular>
+  <Randevular>
+    <HastaAdi>24337375082 - canan</HastaAdi>
+    <DoktorAdi>Burak Bilginer / Üroloji - 1</DoktorAdi>
+    <RandevuTarihi>22.5.2013</RandevuTarihi>
+    <RandevuSaati>09:32</RandevuSaati>
+    <Ameliyat>0</Ameliyat>
+  </Randevular>
+  <Randevular>
+    <HastaAdi>12365478952 - qwerty</HastaAdi>
+    <DoktorAdi>Burak Bilginer / Üroloji - 1</DoktorAdi>
+    <RandevuTarihi />
+    <RandevuSaati>11:32</RandevuSaati>
+    <Ameliyat>0</Ameliyat>
+  </Randevular>
+  <Randevular>
+    <HastaAdi>24337375082 - canan</HastaAdi>
+    <DoktorAdi>Burak Bilginer / Üroloji - 1</DoktorAdi>
+    <RandevuTarihi>3.5.2013</RandevuTarihi>
+    <RandevuSaati>13:48</RandevuSaati>
+    <Ameliyat>1</Ameliyat>
+  </Randevular>
+  <Randevular>
+    <HastaAdi>11111111111 - asd</HastaAdi>
+    <DoktorAdi>Fatih Yurdagül / Kardiyoloji - 1</DoktorAdi>
+    <RandevuTarihi>16.5.2013</RandevuTarihi>
+    <RandevuSaati>09:16</RandevuSaati>
+    <Ameliyat>1</Ameliyat>
+  </Randevular>
+  <Randevular>
+    <HastaAdi />
+    <DoktorAdi>Fatih Yurdagül / Kardiyoloji - 1</DoktorAdi>
+    <RandevuTarihi>22.5.2013</RandevuTarihi>
+    <RandevuSaati>09:08</RandevuSaati>
+    <Ameliyat>0</Ameliyat>
+  </Randevular>
+</ArrayOfRandevular>

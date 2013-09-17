@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfHastaCikis xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <HastaCikis>
+    <HastaAdi>24337375082 - canan</HastaAdi>
+    <HastaMasrafi>100</HastaMasrafi>
+    <CikisTarihi>19.5.2013 18:10:41</CikisTarihi>
+  </HastaCikis>
+  <HastaCikis>
+    <HastaAdi>11111111111 - asd</HastaAdi>
+    <HastaMasrafi />
+    <CikisTarihi>19.5.2013 18:14:50</CikisTarihi>
+  </HastaCikis>
+  <HastaCikis>
+    <HastaAdi>11111111111 - asd</HastaAdi>
+    <HastaMasrafi>45</HastaMasrafi>
+    <CikisTarihi>20.5.2013 00:40:05</CikisTarihi>
+  </HastaCikis>
+  <HastaCikis>
+    <HastaAdi>24337375082 - canan</HastaAdi>
+    <HastaMasrafi>112,5</HastaMasrafi>
+    <CikisTarihi>20.5.2013 00:53:05</CikisTarihi>
+  </HastaCikis>
+</ArrayOfHastaCikis>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfFatihDepo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <FatihDepo>
+    <HangiDepo>servis</HangiDepo>
+    <UrunAdi>aspirin</UrunAdi>
+    <Miktar>1</Miktar>
+    <Tutar>12</Tutar>
+    <SonKullanmaTarihi>2013-05-19T17:35:15.066197+03:00</SonKullanmaTarihi>
+  </FatihDepo>
+  <FatihDepo>
+    <HangiDepo>poliknilik</HangiDepo>
+    <UrunAdi>minoset</UrunAdi>
+    <Miktar>10</Miktar>
+    <Tutar>12</Tutar>
+    <SonKullanmaTarihi>2013-05-19T17:35:15.2365782+03:00</SonKullanmaTarihi>
+  </FatihDepo>
+  <FatihDepo>
+    <HangiDepo>poliknilik</HangiDepo>
+    <UrunAdi>aspirin</UrunAdi>
+    <Miktar>46</Miktar>
+    <Tutar>12</Tutar>
+    <SonKullanmaTarihi>0001-01-01T00:00:00</SonKullanmaTarihi>
+  </FatihDepo>
+</ArrayOfFatihDepo>

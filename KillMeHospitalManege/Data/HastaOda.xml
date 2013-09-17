@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfHastaServisOdasina xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <HastaServisOdasina>
+    <HastaAdi>11111111111 - asd</HastaAdi>
+    <OdaNo>Deneme</OdaNo>
+    <DoktorAdi>Tolga Sedat Kayhan / Kardiyoloji - 2</DoktorAdi>
+    <YatisTarihi>01.5.2013 18:14:43</YatisTarihi>
+    <ServisAdi>Deneme</ServisAdi>
+  </HastaServisOdasina>
+</ArrayOfHastaServisOdasina>

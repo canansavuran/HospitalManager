@@ -1,0 +1,16 @@
+﻿<Window x:Class="KillMeHospitalManege.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="364.474" Width="577.632">
+    <Grid Background="#FFE5E5E5">
+        <Button x:Name="BTNVezne" Content="Vezne - Hasta Kabul İşlemleri" HorizontalAlignment="Left" Margin="40,39,0,0" VerticalAlignment="Top" Width="501" Click="BTNVezne_Click"/>
+        <Button x:Name="BTNDoktor" Content="Doktor Girişi" HorizontalAlignment="Left" Margin="40,64,0,0" VerticalAlignment="Top" Width="501" Click="BTNDoktor_Click"/>
+        <Button x:Name="BTNPoliklinik" Content="Poliklinik Ekle" HorizontalAlignment="Left" Margin="40,189,0,0" VerticalAlignment="Top" Width="501" Click="BTNTolga_Click"/>
+        <Button x:Name="BTNServis" Content="Servis İşlemleri" HorizontalAlignment="Left" Margin="40,89,0,0" VerticalAlignment="Top" Width="501" Click="BTNGulnur_Click"/>
+        <Button x:Name="BTNFAtih" Content="Eczane / Depo İşlemleri" HorizontalAlignment="Left" Margin="40,139,0,0" VerticalAlignment="Top" Width="501" Click="BTNFAtih_Click"/>
+        <Button x:Name="BTNOda" Content="Oda Ekle" HorizontalAlignment="Left" Margin="40,164,0,0" VerticalAlignment="Top" Width="501" Click="BTNOda_Click"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="212,262,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
+        <Button x:Name="BTNTetkik" Content="Tetkik İşlemleri" HorizontalAlignment="Left" Margin="40,114,0,0" VerticalAlignment="Top" Width="501" Click="BTNTetkik_Click"/>
+
+    </Grid>
+</Window>

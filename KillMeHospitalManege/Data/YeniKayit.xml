@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfCananYeniKayit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CananYeniKayit>
+    <TC>21341</TC>
+    <AdSoyad>2341243</AdSoyad>
+    <DogumTarihi>2013-05-22T00:00:00</DogumTarihi>
+    <Cinsiyet>System.Windows.Controls.ComboBoxItem: Kadın</Cinsiyet>
+    <Boy>234</Boy>
+    <Kilo>234124</Kilo>
+    <KanGrubu>System.Windows.Controls.ComboBoxItem: 0 RH +</KanGrubu>
+    <Kurumu>System.Windows.Controls.ComboBoxItem: Bağlı Değil</Kurumu>
+    <Telefon>55453</Telefon>
+    <Adres>453543</Adres>
+  </CananYeniKayit>
+  <CananYeniKayit>
+    <TC>24337375082</TC>
+    <AdSoyad>canan</AdSoyad>
+    <DogumTarihi>1991-10-24T00:00:00</DogumTarihi>
+    <Cinsiyet>Kadın</Cinsiyet>
+    <Boy>1.65</Boy>
+    <Kilo>55</Kilo>
+    <KanGrubu>0 RH +</KanGrubu>
+    <Kurumu>Emekli Sandığı</Kurumu>
+    <Telefon>5543273884</Telefon>
+    <Adres>bayındırlık</Adres>
+  </CananYeniKayit>
+  <CananYeniKayit>
+    <TC>11111111111</TC>
+    <AdSoyad>asd</AdSoyad>
+    <DogumTarihi>1990-06-14T00:00:00</DogumTarihi>
+    <Cinsiyet>Kadın</Cinsiyet>
+    <Boy>1.9</Boy>
+    <Kilo>75</Kilo>
+    <KanGrubu>AB RH +</KanGrubu>
+    <Kurumu>SGK</Kurumu>
+    <Telefon>4858352852</Telefon>
+    <Adres>dtvgthv shg</Adres>
+  </CananYeniKayit>
+  <CananYeniKayit>
+    <TC>12365478952</TC>
+    <AdSoyad>qwerty</AdSoyad>
+    <DogumTarihi>1970-02-11T00:00:00</DogumTarihi>
+    <Cinsiyet>Erkek</Cinsiyet>
+    <Boy>1.8</Boy>
+    <Kilo>85</Kilo>
+    <KanGrubu>AB RH +</KanGrubu>
+    <Kurumu>SGK</Kurumu>
+    <Telefon>45698741236</Telefon>
+    <Adres>rdcjhgıbnnhjn</Adres>
+  </CananYeniKayit>
+</ArrayOfCananYeniKayit>

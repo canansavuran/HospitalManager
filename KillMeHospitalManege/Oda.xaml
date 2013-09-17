@@ -1,0 +1,26 @@
+﻿<Window x:Class="KillMeHospitalManege.Oda"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Oda" Height="239.564" Width="351.879">
+    <Grid>
+        <TabControl HorizontalAlignment="Left" Height="199" Margin="0,10,0,0" VerticalAlignment="Top" Width="344">
+            <TabItem Header="Yeni Oda Ekleme">
+                <Grid Background="#FFE5E5E5" Margin="0,0,-3,-18">
+                    <Label Content="Servis Adı:" HorizontalAlignment="Left" Margin="10,6,0,0" VerticalAlignment="Top"/>
+                    <Label Content="Oda Numarası:" HorizontalAlignment="Left" Margin="10,32,0,0" VerticalAlignment="Top"/>
+                    <Label Content="Kaç Kişilik:" HorizontalAlignment="Left" Margin="10,65,0,0" VerticalAlignment="Top"/>
+                    <TextBox x:Name="OdaNo" HorizontalAlignment="Left" Height="23" Margin="114,37,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+                    <TextBox x:Name="KisiSayisi" HorizontalAlignment="Left" Height="23" Margin="114,68,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+                    <ComboBox x:Name="CBServisler" HorizontalAlignment="Left" Margin="114,10,0,0" VerticalAlignment="Top" Width="120"/>
+                    <Button x:Name="BTNOdaKayit" Content="Kaydet" HorizontalAlignment="Left" Margin="251,136,0,0" VerticalAlignment="Top" Width="75" Click="BTNOdaKayit_Click"/>
+                    <Label x:Name="Cinsiyet" Content="Cinsiyet :" HorizontalAlignment="Left" Margin="10,96,0,0" VerticalAlignment="Top"/>
+                    <ComboBox x:Name="CBCinsiyet" HorizontalAlignment="Left" Margin="114,104,0,0" VerticalAlignment="Top" Width="120" SelectedIndex="0">
+                        <ComboBoxItem Content="Bay"/>
+                        <ComboBoxItem Content="Bayan"/>
+                    </ComboBox>
+                </Grid>
+            </TabItem>
+        </TabControl>
+
+    </Grid>
+</Window>

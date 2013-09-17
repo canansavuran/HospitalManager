@@ -1,0 +1,22 @@
+﻿<Window x:Class="KillMeHospitalManege.HastaServisİslemleri__Ameliyat"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Hasta Ameliyat İşlemleri" Height="220" Width="400">
+    <Grid Background="#FFE5E5E5">
+        <TextBlock HorizontalAlignment="Left" Margin="20,16,0,0" TextWrapping="Wrap" Text="Hasta Seçiniz :" VerticalAlignment="Top"/>
+        <ComboBox x:Name="CBHastalar" HorizontalAlignment="Left" Margin="136,10,0,0" VerticalAlignment="Top" Width="246" SelectedIndex="0">
+            
+        </ComboBox>
+        <TextBlock HorizontalAlignment="Left" Margin="20,43,0,0" TextWrapping="Wrap" Text="Hastanın Doktoru :" VerticalAlignment="Top"/>
+        <ComboBox x:Name="CBDoktorlar" HorizontalAlignment="Left" Margin="136,37,0,0" VerticalAlignment="Top" Width="246" SelectedIndex="0">
+           
+        </ComboBox>
+        <Button x:Name="Kaydet" Content="İşlemi Gerçekleştir" HorizontalAlignment="Left" Margin="225,149,0,0" VerticalAlignment="Top" Width="157" Click="Kaydet_Click"/>
+        <TextBlock HorizontalAlignment="Left" Margin="20,100,0,0" TextWrapping="Wrap" Text="Ameliyat Saati :" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="20,72,0,0" TextWrapping="Wrap" Text="Ameliyat Tarihi :" VerticalAlignment="Top"/>
+        <DatePicker x:Name="tarihimiz" HorizontalAlignment="Left" Margin="136,64,0,0" VerticalAlignment="Top" Width="246"/>
+        <ComboBox x:Name="CBSaat" HorizontalAlignment="Left" Margin="136,93,0,0" VerticalAlignment="Top" Width="246"/>
+
+
+    </Grid>
+</Window>

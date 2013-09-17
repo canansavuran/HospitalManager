@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfSafaKullanimKaydi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SafaKullanimKaydi>
+    <TC>11111111111</TC>
+    <Malzeme>minoset</Malzeme>
+    <Adet>1</Adet>
+    <Odendimi>0</Odendimi>
+    <Fiyati>12</Fiyati>
+  </SafaKullanimKaydi>
+  <SafaKullanimKaydi>
+    <TC>11111111111</TC>
+    <Malzeme>aspirin</Malzeme>
+    <Adet>1</Adet>
+    <Odendimi>0</Odendimi>
+    <Fiyati>12</Fiyati>
+  </SafaKullanimKaydi>
+</ArrayOfSafaKullanimKaydi>
